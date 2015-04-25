@@ -3,3 +3,156 @@
 /*****************************************************************************/
 .home {
 }
+
+* {
+	font-family: Open Sans;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #662483;
+}
+
+#header > img {
+	margin-top: 20px; 
+	margin-bottom: 10px;
+}
+
+#header, #status {
+	text-align: center;
+}
+
+#main {
+	text-align: center;
+	margin: 0 auto;
+	background-image: url("../img/background.png");
+	padding: 20px;
+}
+#profile {
+	padding: 10px;
+}
+
+#status {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#innerCircle {
+	text-align: center;
+	padding-top: 30px;
+}
+
+h3{
+	color: #7a7a7a;
+	background-color: #fff;
+	text-align: center;
+}
+
+.itals {
+	font-style: italic;
+	color:#bbb9ba;
+	padding-bottom: 30px;
+}
+
+.contactCard {
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contactCard img {
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.blank {
+	background-color: #f9f9f9;
+}
+
+.name_blank {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0,0,0,0.65);;
+}
+
+#overlayBox {
+	border-radius: 5px;
+	background-color: #fff;
+	margin: 25px;
+	margin-top: 90px;
+	padding: 35px;
+	padding-bottom: 20px;
+	opacity: 1;
+	-webkit-transition: opacity 2s;
+    transition: opacity 2s;
+}
+
+input[type="text"]{
+	border: 1px solid #d5d3d4;
+	background-color: #f5f5f6;
+	border-radius: 2px;
+	height: 40px;
+	display: block;
+	width: 96%;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	max-width: 285px;
+}
+
+label {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+form {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+button {	
+	background-color: #78256d;
+	border: none;
+	box-shadow: 0px 2px 5px #555;
+	color: rgba(255,255,255,0.87);
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	width: 220px;
+	border-radius: 2px;
+	margin-bottom: 30px;
+	font-weight: 600;
+	font-size: 16px;
+
+}
+
+#center {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+.displayNone {
+	display: none;
+}
+
+#overlay2 #overlayBox, #overlay3 #overlayBox {
+	text-align: center;
+}
