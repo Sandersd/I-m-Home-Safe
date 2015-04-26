@@ -38,8 +38,8 @@ Template.Home.rendered = function () {
 	});
 
 	$( "#finish" ).click(function() {
-	 	$( "#overlay3" ).toggleClass( "displayNone" );
-	 	$("#contacts").prepend("<div class='contactCard'><img src='img/d.png'/> <p class='name1'>Dad</p><p class='number1'>+447707019489</p></div>");  
+	 	$( "#overlay3" ).delay( 800 ).toggleClass( "displayNone" );
+	 	$("#contacts").delay( 800 ).prepend("<div class='contactCard'><img src='img/d.png'/> <p class='name1'>Dad</p><p class='number1'>+447707019489</p></div>");  
 	});
 
 	$( ".cancel" ).click(function() {
