@@ -141,6 +141,10 @@ button, .button {
 
 }
 
+.paypal {
+	background-color: #009CDE;
+}
+
 #center {
 	width: 100%;
 	margin: 0 auto;
