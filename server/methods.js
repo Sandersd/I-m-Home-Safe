@@ -12,6 +12,8 @@ Meteor.methods({
     sendMsg: function () {
         console.log("working");
         twilio = Twilio('AC333bfe7ea01127968ff18c736e67ce0f', '0bfbc0d0952f41987f052537a11f52fd');
+
+
         twilio.sendSms({
             to:'+4407522326823', // Any number Twilio can deliver to
             from: '+441560412017', // A number you bought from Twilio and can use for outbound communication
@@ -23,7 +25,6 @@ Meteor.methods({
                 // http://www.twilio.com/docs/api/rest/sending-sms#example-1
                 console.log(responseData.from); // outputs "+14506667788"
                 console.log(responseData.body); // outputs "word to your mother."
-                Homies.insert({state: 'home'});
             } else {
                 console.log(err);
             }
