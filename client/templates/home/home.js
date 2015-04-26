@@ -3,6 +3,9 @@
 /*****************************************************************************/
 Template.Home.events({
     
+    'click button#make': function () {
+        window.location.replace("https://v3-sandbox.justgiving.com/4w350m3/donation/direct/charity/1104MessageAndAmount?amount=2");
+    }
 
 
 });
