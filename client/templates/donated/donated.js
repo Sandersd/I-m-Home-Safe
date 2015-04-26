@@ -17,6 +17,9 @@ Template.Donated.created = function () {
 };
 
 Template.Donated.rendered = function () {
+	$( "#toggle" ).click(function() {
+	 	$( "#toggle" ).toggleClass( "toggleOff" );
+	});
 };
 
 Template.Donated.destroyed = function () {
