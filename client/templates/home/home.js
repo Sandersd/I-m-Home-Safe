@@ -4,7 +4,7 @@
 Template.Home.events({
     
     'click button#make': function () {
-        window.location.replace("https://v3-sandbox.justgiving.com/4w350m3/donation/direct/charity/1104MessageAndAmount?amount=2");
+        window.location.href = "https://v3-sandbox.justgiving.com/4w350m3/donation/direct/charity/1104MessageAndAmount?amount=2";
     }
 
 
@@ -33,7 +33,7 @@ Template.Home.rendered = function () {
 	});
 
 	$( "#make" ).click(function() {
-	 	$( "#overlay2" ).toggleClass( "displayNone" );	
+	 	$( "#overlay2" ).toggleClass( "displayNone" );
 	 	$( "#overlay3" ).toggleClass( "displayNone" );
 	});
 
