@@ -6,6 +6,7 @@ accounts-ui-unstyled@1.1.7
 autopublish@1.0.3
 autoupdate@1.2.1
 base64@1.0.3
+benjaminrh:user-session@0.2.0
 binary-heap@1.0.3
 blaze@2.1.2
 blaze-tools@1.0.3
@@ -39,6 +40,7 @@ less@1.0.14
 livedata@1.0.13
 localstorage@1.0.3
 logging@1.0.7
+matteodem:server-session@0.4.2
 mdg:geolocation@1.0.2
 meteor@1.1.6
 meteor-platform@1.2.2
@@ -46,6 +48,7 @@ minifiers@1.1.5
 minimongo@1.0.8
 mobile-status-bar@1.0.3
 mongo@1.1.0
+mongo-livedata@1.0.8
 npm-bcrypt@0.7.8_2
 observe-sequence@1.0.6
 ordered-dict@1.0.3

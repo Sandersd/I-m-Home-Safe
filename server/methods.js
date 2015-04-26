@@ -23,6 +23,7 @@ Meteor.methods({
                 // http://www.twilio.com/docs/api/rest/sending-sms#example-1
                 console.log(responseData.from); // outputs "+14506667788"
                 console.log(responseData.body); // outputs "word to your mother."
+                Homies.insert({state: 'home'});
             } else {
                 console.log(err);
             }

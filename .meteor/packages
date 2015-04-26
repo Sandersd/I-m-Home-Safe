@@ -15,3 +15,5 @@ accolver:twilio-meteor
 http
 mdg:geolocation
 jquery
+matteodem:server-session
+benjaminrh:user-session
