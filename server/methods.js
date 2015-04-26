@@ -17,7 +17,7 @@ Meteor.methods({
         twilio.sendSms({
             to:'+4407522326823', // Any number Twilio can deliver to
             from: '+441560412017', // A number you bought from Twilio and can use for outbound communication
-            body: 'test' // body of the SMS message
+            body: 'Hey, I arrived home safely!' // body of the SMS message
         }, function(err, responseData) { //this function is executed when a response is received from Twilio
             if (!err) { // "err" is an error received during the request, if any
                 // "responseData" is a JavaScript object containing data received from Twilio.
