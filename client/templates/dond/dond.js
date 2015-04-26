@@ -24,6 +24,10 @@ Template.Dond.created = function () {
 };
 
 Template.Dond.rendered = function () {
+
+	$( "#toggle" ).click(function() {
+	 	$( "#toggle" ).toggleClass( "toggleOff" );
+	});
 };
 
 Template.Dond.destroyed = function () {
