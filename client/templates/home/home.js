@@ -28,6 +28,7 @@ Template.Home.created = function () {
 };
 
 Template.Home.rendered = function () {
+
 	$( "#addNew" ).click(function() {
 	 	$( "#overlay1" ).toggleClass( "displayNone" );
 	});
