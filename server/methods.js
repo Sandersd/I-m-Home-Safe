@@ -13,7 +13,7 @@ Meteor.methods({
         console.log("working");
         twilio = Twilio('AC333bfe7ea01127968ff18c736e67ce0f', '0bfbc0d0952f41987f052537a11f52fd');
         twilio.sendSms({
-            to:'07707019489', // Any number Twilio can deliver to
+            to:'+4407522326823', // Any number Twilio can deliver to
             from: '+441560412017', // A number you bought from Twilio and can use for outbound communication
             body: 'test' // body of the SMS message
         }, function(err, responseData) { //this function is executed when a response is received from Twilio
